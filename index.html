@@ -10,9 +10,8 @@
   <header class="hero">
     <div class="container">
       <h1>Машков Иван Александрович</h1>
-      <p class="subtitle">Студент IT-направления</p>
+      <p class="subtitle">junior java-разработчик</p>
       <div class="hero-links">
-        <a href="#projects" class="btn">Проекты</a>
         <a href="https://github.com/Ev1s4M" target="_blank" class="btn btn-outline">GitHub</a>
       </div>
     </div>
@@ -29,18 +28,23 @@
     <section class="card">
       <h2>Навыки</h2>
       <div class="skills">
-		<span>Java</span>
-		<span>Python</span>
-		<span>SQL</span>
-        <span>Git</span>
-      </div>
+		  <span>Java</span>
+		  <span>PostgreSQL</span>
+		  <span>Git</span>
+		  <span>REST API</span>
+		  <span>JSON</span>
+		  <span>ООП</span>
+		  <span>Python</span>
+		  <span>Linux</span>
+		  <span>SQL</span>
+	  </div>
     </section>
 
     <section class="card">
       <h2>Образование</h2>
       <p><strong>Санкт-Петербургский политехнический университет Петра Великого</strong></p>
-      <p>Институт Компьютерных Наук и Кибербезопасности</p>
-	  <p>Информационные системы и технологии</p>
+      <p><strong>Факультет:</strong> Институт Компьютерных Наук и Кибербезопасности</p>
+	  <p><strong>Специальность:</strong> Информационные системы и технологии</p>
       <p>2023 — 2027</p>
     </section>
 
@@ -51,9 +55,14 @@
         <article class="project-card">
           <div class="project-content">
             <h3>Игра в стиле Hill Climb Racing</h3>
+			<p>Стек: Java,Git</p>
+			<p>Роль: Разработчик игровой логики</p>
             <p>
-              Учебный проект, в котором была реализована игровая логика,
-              базовое взаимодействие объектов и механика движения.
+              Учебный групповой проект по разработке 2D-игры в жанре аркадного автосимулятора. Отвечал за программную реализацию игровой логики и процедурной генерации уровней.
+				Выполненные задачи:
+				Спроектировал архитектуру игровых объектов (транспорт, препятствия, бонусы) с применением принципов ООП: инкапсуляция, наследование, полиморфизм
+				Внедрил процедурную генерацию уровней
+				Работал в команде из 3 человек: распределяли задачи, вели код через Git (branching, pull requests, разрешение конфликтов)
             </p>
             <div class="project-links">
               <a href="https://github.com/HellInsider/HillClimbRacing" target="_blank" class="btn small">GitHub</a>
@@ -64,15 +73,34 @@
         <article class="project-card">
           <div class="project-content">
             <h3>Weather App</h3>
+			<p>Стек: Java, REST API, JSON</p>
             <p>
-              Приложение для просмотра погоды, которое получает актуальные
-              данные через API и отображает их пользователю.
+              Консольное/графическое приложение для получения актуальных данных о погоде из внешнего API. Проект создан для отработки навыков работы с сетевыми запросами и обработки структурированных данных.
+				Выполненные задачи:
+				Интегрировал REST API сервиса погоды (OpenWeatherMap / WeatherAPI) — формирование HTTP-запросов, обработка статус-кодов
+				Реализовал парсинг JSON-ответа и извлечение данных (температура, давление, влажность, скорость ветра)
+				Настроил обработку ошибок: недоступность сервера, невалидный запрос, несуществующий город
+				Вывел данные в структурированном виде GUI
             </p>
             <div class="project-links">
               <a href="https://github.com/Ev1s4M/weather" target="_blank" class="btn small">GitHub</a>
             </div>
         
     </section>
+<section class="card">
+  <h2>Опыт / Практика</h2>
+  
+  <article class="project-card">
+    <h3>Учебная практика по 1С (СПбПУ)</h3>
+    <p><em>Стек: 1С:Предприятие 8.3, язык запросов 1С</em></p>
+    <ul>
+      <li>Работа в конфигураторе: создание справочников, документов и регистров</li>
+      <li>Написание запросов для формирования отчётов</li>
+      <li>Настройка печатных форм</li>
+      <li>Изучение клиент-серверной архитектуры и работы с СУБД</li>
+    </ul>
+  </article>
+</section>
 
     <section class="card">
       <h2>Контакты</h2>
